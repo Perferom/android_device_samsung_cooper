@@ -1,0 +1,8 @@
+[
+    {
+        "remote":      "github",
+        "repository":  "Perferom/android_device_samsung_msm7x27-common",
+        "target_path": "device/samsung/msm7x27-common",
+        "revision":    "android-4.4"
+    }
+]

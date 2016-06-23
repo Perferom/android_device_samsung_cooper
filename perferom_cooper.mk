@@ -10,7 +10,7 @@ TARGET_SCREEN_WIDTH := 320
 $(call inherit-product, vendor/cm/config/mini.mk)
 
 # Overrides
-PRODUCT_NAME := perferom_cooper
+PRODUCT_NAME := cm_cooper
 PRODUCT_DEVICE := cooper
 PRODUCT_BRAND := Samsung
 PRODUCT_MODEL := GT-S5830

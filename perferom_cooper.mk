@@ -9,6 +9,10 @@ TARGET_SCREEN_HEIGHT := 480
 TARGET_SCREEN_WIDTH := 320
 $(call inherit-product, vendor/cm/config/mini.mk)
 
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME="Galaxy Ace (GT-S5830)" \
+    TARGET_DEVICE="Galaxy Ace (GT-S5830)"
+
 # Overrides
 PRODUCT_NAME := cm_cooper
 PRODUCT_DEVICE := cooper

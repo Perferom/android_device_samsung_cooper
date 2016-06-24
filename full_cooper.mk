@@ -12,6 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+PRODUCT_RUNTIMES := runtime_libdvm_default
+
 # Inherit device specific files
 $(call inherit-product, device/samsung/cooper/device_cooper.mk)
 

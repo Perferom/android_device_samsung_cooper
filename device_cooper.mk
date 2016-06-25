@@ -18,12 +18,14 @@
 ## Build the 3.0.x Kernel
 #BUILD_WITH_30X_KERNEL := false
 
+# Inherit the SIM Toolkit + Torch
 PRODUCT_PACKAGES += \
-    Torch
+	Torch \
+	Stk
 
 ## Ramdisk
 PRODUCT_COPY_FILES += \
-    device/samsung/cooper/ramdisk/COOPER.rle:root/COOPER.rle
+	device/samsung/cooper/ramdisk/COOPER.rle:root/COOPER.rle
 
 # Inherit products (Most specific first)
 # cooper blobs > samsung common(device/vendor) > other blobs

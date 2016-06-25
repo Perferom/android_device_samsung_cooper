@@ -13,7 +13,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="Galaxy Ace (GT-S5830)" \
     TARGET_DEVICE="Galaxy Ace (GT-S5830)"
 
-# Overrides
+# Overrides inherited values
 PRODUCT_NAME := cm_cooper
 PRODUCT_DEVICE := cooper
 PRODUCT_BRAND := Samsung
@@ -23,3 +23,9 @@ PRODUCT_CHARACTERISTICS := phone
 
 PRODUCT_RELEASE_NAME := GalaxyAce
 PRODUCT_VERSION_DEVICE_SPECIFIC := -GT-S5830
+
+# Inherit the SIM Toolkit
+PRODUCT_PACKAGES += Stk
+
+#Include pico Gapps
+MINI_GAPPS := true
